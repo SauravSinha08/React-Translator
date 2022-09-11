@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url(./image/pexels-tirachard-kumtanom-733857.jpg);
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+textarea{
+  background: transparent;
+  border: 3px solid #37363C;
+  border-radius: 5px;
+  font-size: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+span{
+  font-size: 25px;
+  font-weight: 600;
+}
+select{
+  margin-right: 30px;
+  margin-left: 5px;
+  border: 2px solid;
+  border-radius: 3px;
+}
+button{
+  background-color: #37363C;
   color: white;
+  font-size: 22px;
+  border-radius: 4px;
+  padding: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+h1{
+  margin-bottom: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  div{
+    padding :10px;  
   }
-}
